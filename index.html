@@ -16,31 +16,101 @@
     <title>Carolina Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top w-100">
-    <a class="navbar-brand" href="#">Carolina Castillo</a>
+    <nav class="navbar navbar-expand-lg fixed-top w-40 rounded-3 navbar-default navbar1">
+    <a class="navbar-brand nav_txt_color" href="#">Carolina Castillo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-            <a class="nav-link" href="https://stackoverflow.com/questions/79802987/youtube-error-153-video-player-configuration-error-when-embedding-youtube-video">Features</a>
+            <a class="nav-link nav_txt_color" href="https://www.linkedin.com/in/carolinacastillocontreras/">Linkedin Profile</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link nav_txt_color" href="mailto:c.castillocontr@gmail.com">Contact</a>
         </li>
         </ul>
-        <span class="navbar-text">
-        Audiovisual artist and developer trainee
-        </span>
+        <span class="navbar-text nav_txt_color">✦ Art and coding. That's a videogame! ✦</span>
     </div>
     </nav>
 
-    <main>
-        <video width="100%" height="40%" autoplay muted loop style="opacity: 60%;">
+<section class="video-background-holder">
+    <!-- Video Element -->
+    <video autoplay muted loop playsinline class="video-background-video">
         <source src="PinkRoad-Pure-short.mp4" type="video/mp4">
-        </video>
-    </main>
+        <!-- Fallback text for browsers that don't support the video tag -->
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Overlay Content -->
+    <div class="container h-100 position-relative">
+        <div class="d-flex h-100 text-center align-items-center justify-content-center">
+            <div class="w-100">
+                <h1 class="display-3 section1_text">✦ Carolina Castillo Portfolio ✦</h1>
+                <p class="lead mb-0 section1_text">Audiovisual Director, 2D artist, fullstack trainee</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class=" container-fluid section2_bg p-4">
+    <div class="row p-5 text-center align-items-md-start justify-content-center">
+
+        <div class="col-12 mb-4">
+            <h1 class="display-4">Audiovisual projects</h1>
+        </div>
+    
+        <div class="col-md-3">
+            <a href="https://www.linkedin.com/posts/glitched-visuals_inspired-by-the-nes-console-racing-videogames-activity-7264700384416260096-o--i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAByik4MB3LDDJfP-j-4ZBttk1QhkO4NHEZk">
+            <div class="card mb-4 box-shadow">
+            <video autoplay muted loop playsinline class="card-img-top">
+            <source src="PinkRoad-Pure-short.mp4" type="video/mp4">
+
+                <!-- Fallback text for browsers that don't support the video tag -->
+                Your browser does not support the video tag.
+            </video>
+            </a>
+
+            <div class="card-body">
+                <p class="card-text" style="height: 100px;">Video made for my own audiovisual production enterprise. Inspired by the NES console racing videogames "Chase HQ" and "Al Unser Jr.'s Turbo Racing".</p>
+            </div>
+        </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="card mb-4 box-shadow">
+                <a href="https://youtu.be/8FDQZ-KIG5k?list=RD8FDQZ-KIG5k">
+                <video autoplay muted loop playsinline class="card-img-top">
+                    <source src="01-Andromeda-03.mp4" type="video/mp4">
+                    <!-- Fallback text for browsers that don't support the video tag -->
+                    Your browser does not support the video tag.
+                </video>
+                </a>
+
+                <div class="card-body">
+                    <p class="card-text" style="height: 100px;">Music video made for a chilean artist of retrowave inspired music called Trash. Pixelart animation with AfterEfects 3D layers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card mb-4 box-shadow">
+                <a href="https://youtu.be/XiNDSyQAY_8">
+                <video autoplay muted loop playsinline class="card-img-top">
+                    <source src="01-Lantania12-1B.mp4" type="video/mp4">
+                    <!-- Fallback text for browsers that don't support the video tag -->
+                    Your browser does not support the video tag.
+                </video>
+                </a>
+
+                <div class="card-body">
+                    <p class="card-text" style="height: 100px;">Teaser for a webseries original sci-fi project called Lantania-12. It is meant to be a mix media between a webseries and a videogame.</p>
+                </div>
+            </div>
+        </div>
+
+</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
